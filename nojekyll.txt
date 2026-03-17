@@ -1,0 +1,18 @@
+# GitHub Pages - Disable Jekyll processing
+# This file should be renamed to .nojekyll after upload
+# Created on 2026-03-17
+
+# Purpose:
+# This file disables GitHub Pages' Jekyll processing, ensuring that
+# HTML files are served directly without Jekyll transformation.
+
+# Instructions:
+# 1. Upload this file to your GitHub repository
+# 2. Rename it to ".nojekyll" (without quotes)
+# 3. Commit the change
+
+# Why .nojekyll is needed:
+# - GitHub Pages uses Jekyll by default
+# - Jekyll may interfere with HTML file serving
+# - .nojekyll tells GitHub to skip Jekyll processing
+# - Ensures privacy-policy.html and service-agreement.html work correctly
